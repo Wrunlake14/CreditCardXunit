@@ -9,7 +9,7 @@ namespace CreditCards.Controllers
     public class ApplyController : Controller
     {
         private readonly ICreditCardApplicationRepository _applicationRepository;
-        //
+        
         public ApplyController(ICreditCardApplicationRepository applicationRepository)
         {
             _applicationRepository = applicationRepository;
