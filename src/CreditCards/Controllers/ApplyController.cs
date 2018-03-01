@@ -12,6 +12,7 @@ namespace CreditCards.Controllers
         
         public ApplyController(ICreditCardApplicationRepository applicationRepository)
         {
+            // 
             _applicationRepository = applicationRepository;
         }
         public IActionResult Index()
